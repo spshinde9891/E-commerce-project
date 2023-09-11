@@ -1,0 +1,463 @@
+.about{
+	background-color: #E6E6FA;
+	text-align: left;
+	height: 100%;
+	display: flex;
+	position: relative;
+	padding: 30px 30px;
+	align-items: start;
+	justify-content: center;
+
+}
+
+.navbar-brand{
+	height: 30px;
+	width: 30px;
+}
+
+
+.right-nav ul.navbar-nav {
+    display: flex;
+    justify-content: end;
+}
+
+
+ul li{
+	list-style-type: none;
+	position: relative;
+}
+
+.text-section p{
+	padding: 20px 40px;
+	margin: 40px;
+	font-size: 20px;
+}
+.d-flex{
+	align-items: left !important;
+}
+
+
+.text-section h1{
+	padding: 0 40px;
+	margin: 40px;
+}
+.nav-image img{
+	background-color: white;
+	height: 30px;
+	width: 30px;
+	background-size: 110px;
+}
+
+h1, h3{
+	padding: 10px 0;
+	font-family: helveltica ;
+}
+
+.second{
+	background-color: #F5F5F5;
+	height: 100%;
+	position: relative;
+
+}
+
+.position{
+	text-align: center;
+	margin-left: 50px;
+	font-family: helveltica;
+	font-size: 30px;
+	padding: 50px 50px;
+
+}
+
+.list{
+	display: flex;
+	padding: 20px 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.second-list {
+	display: flex;
+	list-style-type: inline;
+	padding: 50px 40px;
+	text-transform: uppercase;
+	background-color: floralwhite;
+	height: 100%;
+	padding-top: 90px;
+}
+
+
+.list-item{
+	padding: 120px 120px;
+	color: black;
+	font-family: roboto_condensed;
+
+}
+
+.list-item:hover{
+	font-size: 20px;
+
+}
+
+ section .second-list:hover{
+	background-color: powderblue;
+
+}
+
+.third{
+	text-align: center;
+	padding: 50px 50px;
+	font-size: 30px;
+}
+
+.item{
+	margin-left: 14%;
+	padding-bottom: 70px ;
+}
+
+.set{
+	padding-bottom: 70px;
+
+}
+
+.second-nav{
+	padding-top: 5px;
+	display: inline-block;
+	height: 100%;
+}
+
+/*slider*/
+
+#slider{
+	width: 70%;
+	height: 70%;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -30%);
+	background-image: url('./animation\ 1.jpg');
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px black;
+	animation: slider 9s infinite linear;
+
+	
+}
+
+/*#slider figure{
+	position: relative;
+	width: 500%;
+	height: 50%;
+	margin:0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+*/
+/*#slider figure img{
+	width: 20%;
+	float: left;
+	height: 100%;
+
+}*/
+
+@keyframes slider{
+	0%{background-image: url('./animation\ 2.jpg'); }
+
+	35%{background-image: url('./animation\ 1.jpg');  }
+
+	65%{background-image: url('./animation\ 3.jpg');  }
+
+	75%{background-image: url('./animation\ 2.jpg');}
+	/*0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+*/
+}
+
+
+
+
+/*title*/
+.jumbotron{
+	background-color: #eeeeee;
+	display: flex;
+	padding-top: 500px;
+	padding-left: 500px ;
+}
+
+/*Cards*/
+.card-body{
+	background-color: lightgrey;
+	width: 100%;
+}	
+
+.card{
+	display: flex;
+	
+}
+
+.cards .row{
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,238,1) 79%);
+
+}
+
+.cards .card{
+	margin: 70px;
+	align-content: center;
+	display: flex;
+
+	
+}
+
+
+.card:hover{
+	border-color: black;
+	box-shadow: 1px 2px 10px 5px ghostwhite;
+}
+
+/*offer section*/
+.offers{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.offers img{
+	height: 250px;
+	width: 300px;
+	background-color: white;
+}
+
+.second img{
+	height: 100%;
+	width: 100%;
+	margin-top: 50px;
+
+}
+
+.second{
+	background-color: white;
+}
+
+.deals{
+	padding-top: 50px;
+	justify-content: center;
+}
+
+.deals img{
+	height: 250px;
+	width: 300px;
+	justify-content: center;
+}
+
+/*end section*/
+.end{
+	background-color: #232F3E;
+	color: white;
+	height: 100%;
+	padding-top: 100px;
+	margin-top: 70px;
+	padding-left: 60px;
+	line-height: 200%;
+
+}
+
+.third-list{
+	display: flex;
+	height: 100%;
+	padding-bottom: 40px;
+	justify-content: left;
+}
+
+.third-list ul li{
+	top: 10px;
+
+}
+
+.third-list h5{
+	text-align: left;
+	margin-bottom: -5px;
+	
+}
+
+.new{
+	margin-left: 100px;
+	text-align: left;
+}
+
+/*login page*/
+.login-section{
+	background-color: #ff6347;
+	color: floralwhite;
+	text-align: center;
+	font-family: roboto_condensed;
+	height: 100%;
+}
+
+.login-section h1{
+	padding-top: 150px;
+}
+.login-section h5{
+	padding-bottom: 50px;
+}
+.login-section button{
+	margin-bottom: 150px;
+}
+.form-container{
+	text-align: center;
+	font-family: helveltica;
+}
+.form-container h1{
+	padding-top: 50px;
+}
+
+.form-container img{
+	height: 30px;
+	width: 30px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 20px;
+	align-content: center;
+}
+
+.form-container form input{
+	width: 80%;
+	margin: 10px;
+	background-color: lightgrey;
+	border: none;
+	height: 40px;
+}
+
+.login{
+	text-align: left;
+	height: 100%;
+	display: flex;
+	position: relative;
+	align-items: start;
+	justify-content: center;
+
+}
+
+/*sign in page*/
+.sign-in{
+	text-align: left;
+	height: 100%;
+	display: flex;
+	position: relative;
+	align-items: start;
+	justify-content: center;
+}
+
+.sign-in-section{
+	text-align: center;
+	height: 100%;
+
+}
+.sign-in-section img{
+	height: 30px;
+	width: 30px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-right: 20px;
+	align-content: center;
+
+}
+
+.sign-in-section h1{
+	padding-top: 50px;
+}
+
+.sign-in-section form input{
+	width: 80%;
+	margin: 10px;
+	background-color: lightgrey;
+	border: none;
+	height: 40px;
+}
+
+.last-container{
+	background-color: #ff6347;
+	color: floralwhite;
+	text-align: center;
+	font-family: roboto_condensed;
+	height: 100%;
+
+}
+
+.last-container h1{
+	padding-top: 150px;
+}
+.last-container h5{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.last-container button{
+	margin-bottom: 150px;
+}
+
+/*footer*/
+footer{
+	background-color: #131A22;
+	color: whitesmoke;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+footer p{
+	font-size: 20px;
+	font-size: helveltica;
+	padding: 40px 40px;
+
+}
+
+footer li{
+	display: flex;
+	margin-right: 50px;
+	margin-left: 250px;
+}
+
+.list ul li{
+	text-align: center;
+	padding-left: 100px;
+}
+
+.footer-image img{
+	height: 50px;
+	width: 50px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+.footer-image{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.footer-image h6{
+	padding-bottom: 50px;
+}
+
+footer h6{
+	padding: 50px;
+	text-align: center;
+}
