@@ -1,0 +1,137 @@
+
+@media(max-width:1400px){
+    /* navbar */
+   
+    /* second nav */
+    .text-section li{
+        font-size: 20px;
+    }
+    /* animation section */
+    #slider{
+        height: 400px;
+        width: 800px;
+        margin-bottom: 800px;
+        margin-top: -350px;
+    }
+    #mobile #mobile-view img {
+        display: none;
+    }
+    
+}
+
+@media(max-width:1251px){
+    /* navbar */
+    .navbar-brand{
+        height: 20px;
+        width: 20px;
+    }
+    /* slider */
+    #slider{
+        height: 400px;
+        width: 800px;
+        margin-bottom: 400px;
+        margin-top: -350px;
+    }
+    /* second nav */
+    .second-list .list-item{
+        font-size: 20px;
+        padding: 120px 100px;
+    }
+    /* cards */
+    .cards .card{
+        margin: 50px;
+    }
+    /* offers */
+    .offers img{
+        height: 200px;
+        width: 280px;
+    }
+    .second img{
+        width: 90%;
+        height: 250px;
+    }
+    /* sign in page */
+    .last-container{
+        background-size: 100% ;
+    }
+}
+
+
+
+@media(max-width:992px){
+    .second-list .list-item{
+        font-size: 7px;
+        padding: 120px 100px;
+    }
+}
+
+@media(max-width:767px){
+    /* navbar */
+    nav{
+        height: 100px;
+        width: 1250px;
+    }
+    .navbar-nav a{
+        font-size: 30px;
+    }
+    .navbar-nav img{
+        height: 50px;
+        width: 50px;
+    }
+    .form .search{
+        left: -200px;
+        align-self: left;
+    }
+    .nav-link img{
+        margin-right: 100px;
+        height: 50px;
+        width: 50px;
+    }
+    /* second nav */
+    nav.navbar.navbar-expand-md.md-body-tertiary.fixed-top.window {
+        display: none;
+    }
+   #mobile #mobile-view img {
+        height: 80px;
+        width:80px;
+        margin-top: 400px;
+        display: flex;
+   }
+   img.img-fluid.rounded-start {
+    width: -webkit-fill-available;
+    }
+    .text-section .second-list{
+        display: none;
+    }
+    /* animation */
+    #slider{
+        margin-left: 200px;
+        margin-top: 10px;
+    }
+    .jumbotron{
+        width: 100%;
+        padding-right: 100%;
+        padding-top: 900px;
+    }
+    /* cards */
+
+}
+
+@media(max-width:576px) {
+    /* slider */
+    #slider{
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+    .jumbotron{
+        width: 100%;
+        padding-right: 100%;
+        padding-top: 900px;
+        padding-left: 700px;
+    }
+    
+}
+
+@media(max-width:490px){
+
+}

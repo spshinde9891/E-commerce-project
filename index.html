@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Montserrat:wght@200;300&family=Roboto+Slab&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
    				</ul>
    			</div>
    			<div>
-   				<form class="d-flex" role="search">
+   				<form class="d-flex form" role="search">
       				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
       				<button class="btn btn-outline-light" type="submit">Search</button>
    				</form>
@@ -31,7 +32,7 @@
    			
   		</div>
 	</nav>
-	<section class="text-section col-md-12 col-sm-12">
+	<section class="text-section col-md-12 col-sm-6">
 		<ul class="second-list">
 			<li><a class="list-item" href="index.html">Home</a></li>
 			<li><a class="list-item" href="about.html">About us</a></li>
@@ -39,6 +40,16 @@
 			<li><a class="list-item" href="login.html">Login</a></li>	
 		</ul>
 	</section>
+	<!-- mobile view -->
+	<nav class="navbar navbar-expand justify-content-center body-tertiary" id="mobile">
+		<ul class="navbar-nav" id="mobile-view">
+			<li class="nav-item"><a href="/index.html" class="nav-link"><img src="./home logo.png" alt="Home Image"></a></li>
+			<li class="nav-item"><a href="./about.html" class="nav-link"><img src="./about-us-icon-34429.png" alt="about us Image"></a></li>
+			<li class="nav-item"><a href="./sign_in.html" class="nav-link"><img src="./icons8-sign-in-64.png" alt="Sign-in Image"></a></li>
+			<li class="nav-item"><a href="./login.html" class="nav-link"><img src="./ic-login.svg" alt="Login Image"></a></li>
+		</ul>
+	  </nav>
+	  <!-- Nav section End -->
 
 	<section class="jumbotron">
 	<div id="slider">
@@ -51,7 +62,7 @@
 		</figure> -->
 
 			<form>
-				<input type="button" class="btn btn-primary btn-lg btn-outline-tertiary"name="Shop now!!!" value="Shop now!!!" style="margin: 350px 370px; margin-bottom: 100px;">
+				<input type="button" class="btn btn-primary btn-lg btn-outline-tertiary shop"name="Shop now!!!" value="Shop now!!!" style="margin: 300px 320px; margin-bottom: 100px;">
 			</form>			
 	</div>
 	</section>
@@ -86,6 +97,7 @@
 	  			</div>
 			</div>
 		</div>
+		
 		<!-- Second Row -->
 
 		<div class="row col-sm-3 col-md-6 col-lg-12">

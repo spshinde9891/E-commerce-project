@@ -1,3 +1,4 @@
+
 .about{
 	background-color: #E6E6FA;
 	text-align: left;
@@ -134,12 +135,13 @@ h1, h3{
 	height: 70%;
 	position: absolute;
 	left: 50%;
-	top: 55%;
+	top: 110%;
 	transform: translate(-50%, -30%);
 	background-image: url('./animation\ 1.jpg');
 	background-size: 100% 100%;
 	box-shadow: 1px 2px 10px 5px black;
 	animation: slider 9s infinite linear;
+	
 
 	
 }
@@ -207,15 +209,14 @@ h1, h3{
 }
 
 /*Cards*/
-.card-body{
-	background-color: lightgrey;
-	width: 100%;
-}	
-
 .card{
 	display: flex;
+	width: 18rem;
 	
 }
+.card-body{
+	background-color: lightgrey;
+}	
 
 .cards .row{
 	background: rgb(63,94,251);
@@ -224,10 +225,10 @@ h1, h3{
 }
 
 .cards .card{
-	margin: 70px;
+	margin: 50px;
+	margin-left: 100px;
 	align-content: center;
 	display: flex;
-
 	
 }
 
