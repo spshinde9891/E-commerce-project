@@ -11,12 +11,19 @@
         height: 400px;
         width: 800px;
         margin-bottom: 800px;
-        margin-top: -350px;
+        margin-top: -300px;
     }
     #mobile #mobile-view img {
         display: none;
     }
-    
+    /* sign in */
+    .sign-in-section a{
+        display: none;
+    }
+    /* login */
+    .form-container a{
+        display: none;
+    }
 }
 
 @media(max-width:1251px){
@@ -78,10 +85,7 @@
         height: 50px;
         width: 50px;
     }
-    .form .search{
-        left: -200px;
-        align-self: left;
-    }
+   
     .nav-link img{
         margin-right: 100px;
         height: 50px;
@@ -114,22 +118,165 @@
         padding-top: 900px;
     }
     /* cards */
-
+    
 }
 
 @media(max-width:576px) {
-    /* slider */
-    #slider{
-        margin-left: 300px;
-        margin-top: 10px;
+    /* navbar */
+    nav{
+        height: 60px;
+        width: 576px;
     }
+    .navbar-nav a{
+        font-size: 10px;
+    }
+    .navbar-nav img{
+        height: 20px;
+        width: 20px;
+    }
+    .nav-link img{
+        margin-right: 0px;
+        height: 20px;
+        width: 20px;
+    }
+    .form button{
+        left: -200px;
+        align-self: left;
+        height: 40px;
+        align-items: center;
+    }
+    .form input{
+        width: 100px;
+        height: 40px;
+    }
+    /* second nav */
+    #mobile #mobile-view img {
+        height: 80px;
+        width:80px;
+        margin-top: 400px;
+        display: flex;
+   }
+    
+    /* animation */
     .jumbotron{
-        width: 100%;
-        padding-right: 100%;
-        padding-top: 900px;
-        padding-left: 700px;
+        width: 70%;
+        padding-top: 500px;
+        margin-top: -100px;
+    } 
+    #slider{
+        margin-left: 0px;
+        top: 250px;
+        padding-top: 10px;
+        height: 200px;
+        width: 300px;
+        left: 300px;
+    }
+    #slider form .btn{
+    height: 30px;
+    width: 90px;
+    font-size: 10px;
+   }
+   #slider form{
+    display: none;
+   }
+    /* offers */
+    .offers h2{
+        font-size: 12px;
+    }
+    .offers .row img{
+        margin-left: 100px;
+    }
+    .offers .second img{
+        height: 130px;
+    }
+    .deals img{
+        margin-right:150px;
+    }
+    /* cards */
+    .cards .card{
+        margin-left: 150px;
+    }
+    /* footer */
+    .end{
+        position: relative;
+        font-size: 12px;
+        
+    }
+    .end h5{
+        font-size: 15px;
+        
+    }
+    .third-list{
+        display: inline;
+        margin-left: 200px;
+        position: relative;
+        padding: 0 0 0 0;
+        top: -10px;
+
+
+
+    }
+    .get, .new{
+        margin-left: 150px;
+    }
+    /* logo */
+    .footer-image{
+        margin-left: -80px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+    footer ul li{
+        margin-left: -20px;
+    }
+    .text-section li{
+        font-size: 15px;
+    }
+    /* about page */
+    .text-section{
+        padding-left: 10%;
+        font-size: 10px;
+        display: inline;
+        padding-right: 20%;
+    }
+    .vision{
+        margin-left: -50%;
+    }
+    /* second nav */
+    #mobile #mobile-view img {
+        height: 30px;
+        width:30px;
+        margin-top: 100px;
+        display: flex;
+   }
+   .sn ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+
+    }
+    .about{
+        margin-top: 50px;
+    }
+    /* sign in page */
+    .sign-in-section{
+        margin-left: 10%;
+        
+    }
+    .sign-in-section a{
+        display: inline;
     }
     
+    .last-container{
+        display: none;
+        
+    }
+    /* login page */
+    .login-section{
+        display: none;
+    }
+    .form-container a{
+        display: inline;
+    }
 }
 
 @media(max-width:490px){
